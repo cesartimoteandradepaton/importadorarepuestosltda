@@ -159,9 +159,66 @@
             align-items: center;
             box-shadow: 0 10px 20px rgba(0,0,0,0.2);
             z-index: 2000;
-            transition: 0.3s;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-decoration: none;
         }
-        .ws-float:hover { transform: scale(1.1) rotate(10deg); }
+        .ws-float:hover { transform: scale(1.05); }
+
+        .ws-float.call-float {
+            background: var(--white);
+        }
+        .ws-float.call-float .tooltip {
+            position: absolute;
+            right: calc(100% + 12px);
+            top: 50%;
+            transform: translateY(-50%);
+            background: var(--white);
+            color: #0a2540;
+            padding: 10px 14px;
+            border-radius: 24px;
+            font-size: 0.85rem;
+            white-space: nowrap;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.2s ease;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+            border: 1px solid rgba(10, 37, 64, 0.12);
+            margin-right: 10px;
+        }
+        .ws-float.call-float .tooltip::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            right: -6px;
+            transform: translateY(-50%);
+            width: 0;
+            height: 0;
+            border-top: 6px solid transparent;
+            border-bottom: 6px solid transparent;
+            border-left: 6px solid var(--white);
+        }
+        .ws-float.call-float:hover .tooltip {
+            opacity: 1;
+        }
+
+        .ws-float.whatsapp-float {
+            animation: whatsapp-pulse 2.2s infinite ease-in-out;
+            box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.35);
+        }
+        .ws-float.whatsapp-float:hover {
+            box-shadow: 0 0 0 10px rgba(37, 211, 102, 0.12);
+        }
+        @keyframes whatsapp-pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.35);
+            }
+            70% {
+                box-shadow: 0 0 0 18px rgba(37, 211, 102, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+            }
+        }
 
         footer { background: #051423; color: #5a7184; padding: 80px 10% 40px; }
         .footer-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 50px; }
@@ -173,11 +230,11 @@
 
     <div class="top-bar">
         <div><span class="status-dot"></span> SISTEMA DE DESPACHO: ACTIVO (ZONA COLOMBIA)</div>
-        <div>CERTIFICACIÓN ISO 9001:2026 | OEM COMPLIANT</div>
+        <div>llamar a un asesor: xxxxxxxxxxxx | Chatear con un asesor 🤮</div>
     </div>
 
     <nav>
-        <a href="#" class="logo"><span>Importadora</span> de Repuestos LTDA</a> 
+        <a href="#" class="logo"><span>Importadora</span> de Repuestos</a> 
         <div class="nav-links">
             <a href="/catalogo.html">CATÁLOGO TÉCNICO</a>
             <a href="#logistica">LOGÍSTICA</a>
@@ -290,8 +347,14 @@
         </div>
     </footer>
 
-    <a href="https://wa.me/573115128690?text=Hola,+vengo+de+la+web.+Solicito+asesoria+tecnica+para+un+repuesto." class="ws-float">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width="35" alt="WhatsApp">
+    <a href="https://wa.me/573115128690?text=Hola,+vengo+de+la+web.+Solicito+asesoria+tecnica+para+un+repuesto." class="ws-float whatsapp-float">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width="40" alt="WhatsApp">
+    </a>
+    
+
+    <a href="tel:3011959854" class="ws-float call-float" style="bottom: 130px;">
+        <span class="tooltip">Llamar a un asesor</span>
+        <img src="/img/llamada-telefonica.png" width="60" alt="Llamar a un asesor">
     </a>
 
 </body>
