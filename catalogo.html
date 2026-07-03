@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog | Better Car Audio</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Montserrat:wght@800&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --corp-blue: #0a2540;
+            --electric-blue: #2870dd;
+            --light-bg: #f6f9fc;
+            --white: #ffffff;
+            --whatsapp: #25d366;
+            --border: #e6ebf1;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            background-color: var(--light-bg);
+            color: var(--corp-blue);
+            scroll-behavior: smooth;
+        }
+
+        /* --- HEADER REESTRUCTURADO PARA CENTRADO PERFECTO --- */
+        header {
+            background: var(--corp-blue);
+            color: white;
+            padding: 25px 5%;
+            display: grid;
+            /* Cambiamos a Grid para control total */
+            grid-template-columns: 1fr auto 1fr;
+            /* 3 columnas: Izquierda, Centro, Derecha */
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1100;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-left {
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .header-center {
+            text-align: center;
+        }
+
+        .header-right {
+            display: flex;
+            justify-content: flex-end;
+            /* Mantiene el equilibrio visual */
+        }
+
+        .btn-regresar {
+            background-color: var(--whatsapp);
+            color: white;
+            text-decoration: none;
+            padding: 10px 22px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.75rem;
+            transition: 0.3s;
+            border: none;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn-regresar:hover {
+            transform: scale(1.05);
+            filter: brightness(1.1);
+        }
+
+        .header-center h1 {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.6rem;
+            letter-spacing: 1px;
+        }
+
+        .header-center p {
+            margin: 5px 0 0;
+            font-size: 0.75rem;
+            opacity: 0.7;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* --- RESTO DEL ESTILO MANTENIDO --- */
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .filter-nav {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 30px auto;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            background: var(--white);
+            border: 1px solid var(--border);
+            padding: 12px 20px;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.8rem;
+            transition: 0.3s;
+        }
+
+        .filter-btn.active {
+            background: var(--electric-blue);
+            color: white;
+            border-color: var(--electric-blue);
+        }
+
+        .catalog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .part-card {
+            background: var(--white);
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid var(--border);
+            transition: 0.4s;
+            display: flex;
+            flex-direction: column;
+            animation: fadeInUp 0.5s ease forwards;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .part-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .part-img {
+            width: 100%;
+            height: 210px;
+            object-fit: cover;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .part-content {
+            padding: 20px;
+            flex-grow: 1;
+        }
+
+        .part-tag {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            color: var(--electric-blue);
+            font-weight: 900;
+        }
+
+        .part-title {
+            font-size: 1.1rem;
+            margin: 10px 0;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .part-specs {
+            background: var(--light-bg);
+            padding: 12px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            margin-bottom: 15px;
+            border-left: 3px solid var(--electric-blue);
+        }
+
+        .part-price {
+            font-size: 1.4rem;
+            font-weight: 800;
+            color: var(--corp-blue);
+            margin-bottom: 20px;
+        }
+
+        .btn-order {
+            background: var(--whatsapp);
+            color: white;
+            text-decoration: none;
+            padding: 14px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: 700;
+            display: block;
+            font-size: 0.9rem;
+            transition: 0.3s;
+        }
+
+        .btn-order:hover {
+            filter: brightness(1.1);
+            box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+        }
+
+        .ws-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: var(--whatsapp);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+        }
+
+        .ws-float:hover {
+            transform: scale(1.1);
+        }
+
+        footer {
+            background: var(--corp-blue);
+            color: white;
+            padding: 40px 5%;
+            text-align: center;
+            margin-top: 80px;
+            border-top: 4px solid var(--electric-blue);
+        }
+
+        @media (max-width: 768px) {
+            header {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+
+            .header-left,
+            .header-right {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-left">
+            <button class="btn-regresar" onclick="window.history.back()">← REGRESAR</button>
+        </div>
+
+        <div class="header-center">
+            <h1>CATÁLOGO TÉCNICO BETTER</h1>
+            <p>Suministro de componentes certificados Colombia</p>
+        </div>
+        
+        
+
+        <div class="header-right">
+            <div style="width: 100px;"></div>
+        </div>
+        
+    </header>
+
+    <div class="container">
+        <div class="filter-nav">
+            <button class="filter-btn active" onclick="renderProducts('TODOS')">TODOS</button>
+            <button class="filter-btn" onclick="renderProducts('RADIOS')">RADIOS</button>
+            <button class="filter-btn" onclick="renderProducts('MEDIOS')">MEDIOS</button>
+            <button class="filter-btn" onclick="renderProducts('WOOFERS')">WOOFERS</button>
+            <button class="filter-btn" onclick="renderProducts('TWEETERS')">TWEETERS</button>
+            <button class="filter-btn" onclick="renderProducts('AMPLIFICADORES')">AMPLIFICADORES</button>
+            <button class="filter-btn" onclick="renderProducts('CABLEADO')">CABLEADO</button>
+            <!-- <button class="filter-btn" onclick="renderProducts('SEGURIDAD')">SEGURIDAD</button> -->
+        </div>
+
+        <div class="catalog-grid" id="product-container">
+        </div>
+    </div>
+
+
+    <a href="https://wa.me/573115128690?text=Hola,+vengo+de+la+web.+Solicito+asesoria+tecnica+para+un+repuesto." class="ws-float" id="ws-link">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width="30" alt="WhatsApp">
+        <span id="ws-message" style="display:inline-block; position:absolute; right:60px; top:0; background:#ffffff; color:rgb(0, 0, 0); padding:5px 12px; border-radius:8px; font-size:14px; box-shadow:0 2px 8px rgba(0,0,0,0.15); z-index:1000;">No encuentras tu repuesto? Contactanos </span>
+    </a>
+
+    <footer>
+        <p><strong>BETTER CAR AUDIO</strong><br>Distribución autorizada de componentes originales.<br>Bogotá,
+            2026.</p>
+    </footer>
+
+    <script>
+        let products = [];
+
+        fetch('products_auto.json')
+            .then(response => response.json())
+            .then(data => {
+                products = data;
+                renderProducts('TODOS');
+            })
+            .catch(error => console.error('Error:', error));
+
+        function renderProducts(category) {
+            const container = document.getElementById('product-container');
+            container.innerHTML = "";
+
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.innerText === category || (category === 'TODOS' && btn.innerText === 'TODOS'));
+            });
+
+            const categoriasExcluidas = ['SEGURIDAD', 'OTROS' ,'seguridad', 'otros'];
+            const filtered = category === 'TODOS'
+                ? products.filter(p => !categoriasExcluidas.includes(p.cat))
+                : products.filter(p => p.cat === category);
+
+            filtered.forEach(p => {
+                container.innerHTML += `
+                    <div class="part-card">
+                        <img src="${p.img}" class="part-img" alt="${p.title}">
+                        <div class="part-content">
+                            <span class="part-tag">${p.cat}</span>
+                            <h3 class="part-title">${p.title}</h3>
+                            <div class="part-specs">
+                                <strong>Ref:</strong> ${p.ref}<br>
+                                <strong>Info:</strong> ${p.desc}
+                            </div>
+                            <div class="part-price">${p.price} <span style="font-size: 0.8rem; color: #5a7184; font-weight: 400;">COP</span></div>
+                            <a href="https://wa.me/573115128690?text=Consulta+por+${p.title}+Ref:${p.ref}" class="btn-order">COTIZAR AHORA</a>
+                        </div>
+                    </div>
+                `;
+            }); 
+        }
+        renderProducts('TODOS');
+    </script>
+</body>
+
+</html>

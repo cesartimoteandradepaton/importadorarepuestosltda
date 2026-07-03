@@ -1,0 +1,209 @@
+[
+  {
+    "id": 1,
+    "cat": "RADIOS",
+    "title": "Radio Android 9” A17 Pro",
+    "ref": "XFR-A17",
+    "price": "$1.150.000",
+    "desc": "Pantalla 2K, 12GB RAM, 256GB, CarPlay, Android Auto"
+  },
+  {
+    "id": 2,
+    "cat": "RADIOS",
+    "title": "Radio 2 DIN 9” Android",
+    "ref": "XFR-9",
+    "price": "$410.000",
+    "desc": "Pantalla IPS, GPS, Bluetooth, 4GB RAM / 64GB"
+  },
+  {
+    "id": 3,
+    "cat": "RADIOS",
+    "title": "Radio 2 DIN Básico",
+    "ref": "XFR-9 WX4",
+    "price": "$335.000",
+    "desc": "Android, Bluetooth, USB"
+  },
+  {
+    "id": 4,
+    "cat": "RADIOS",
+    "title": "Radio 1 DIN Android",
+    "ref": "60WX4",
+    "price": "$300.000",
+    "desc": "Pantalla 9”, Bluetooth"
+  },
+
+  {
+    "id": 5,
+    "cat": "PARLANTES",
+    "title": "Componentes 4”",
+    "ref": "200WXFC-42.2",
+    "price": "$155.000",
+    "desc": "Frecuencia 80-20KHZ, 4Ω"
+  },
+  {
+    "id": 6,
+    "cat": "PARLANTES",
+    "title": "Componentes 4” Económico",
+    "ref": "WX4",
+    "price": "$135.000",
+    "desc": "Ferrita de alto grado"
+  },
+
+  {
+    "id": 7,
+    "cat": "MEDIOS",
+    "title": "Medios Ferrita Pro",
+    "ref": "XFM-400W",
+    "price": "$620.000",
+    "desc": "500W RMS, alta sensibilidad"
+  },
+  {
+    "id": 8,
+    "cat": "MEDIOS",
+    "title": "Medios Ferrita",
+    "ref": "XFM",
+    "price": "$450.000",
+    "desc": "500W RMS"
+  },
+  {
+    "id": 9,
+    "cat": "MEDIOS",
+    "title": "Medios 6.5” Neodimio",
+    "ref": "XFM-68ND",
+    "price": "$500.000",
+    "desc": "175W RMS"
+  },
+  {
+    "id": 10,
+    "cat": "MEDIOS",
+    "title": "Medios 8” Ferrita",
+    "ref": "300WXFM-84",
+    "price": "$385.000",
+    "desc": "150W RMS"
+  },
+  {
+    "id": 11,
+    "cat": "MEDIOS",
+    "title": "Medios 6.5” Ferrita",
+    "ref": "200WXFM-64",
+    "price": "$270.000",
+    "desc": "120W RMS"
+  },
+
+  {
+    "id": 12,
+    "cat": "TWEETERS",
+    "title": "Tweeter Bala 4” Neodimio",
+    "ref": "TW-4N",
+    "price": "$240.000",
+    "desc": "Alta sensibilidad"
+  },
+  {
+    "id": 13,
+    "cat": "TWEETERS",
+    "title": "Driver 1.75” Ferrita",
+    "ref": "DRV-175",
+    "price": "$320.000",
+    "desc": "Frecuencia 1KHz - 20KHz"
+  },
+  {
+    "id": 14,
+    "cat": "TWEETERS",
+    "title": "Tweeter Bala 4” Ferrita",
+    "ref": "TW-4F",
+    "price": "$145.000",
+    "desc": "Sonido claro"
+  },
+  {
+    "id": 15,
+    "cat": "TWEETERS",
+    "title": "Tweeter Bala 3”",
+    "ref": "TW-3",
+    "price": "$65.000",
+    "desc": "Compacto"
+  },
+
+  {
+    "id": 16,
+    "cat": "WOOFERS",
+    "title": "Woofer 12” Doble Bobina",
+    "ref": "XFW-3",
+    "price": "$670.000",
+    "desc": "1000W RMS"
+  },
+  {
+    "id": 17,
+    "cat": "WOOFERS",
+    "title": "Woofer 12” PRO",
+    "ref": "XFW-1 PRO",
+    "price": "$390.000",
+    "desc": "400W RMS"
+  },
+  {
+    "id": 18,
+    "cat": "WOOFERS",
+    "title": "Woofer 12” Estándar",
+    "ref": "XFM-12",
+    "price": "$260.000",
+    "desc": "350W RMS"
+  },
+
+  {
+    "id": 19,
+    "cat": "AMPLIFICADORES",
+    "title": "Amplificador 5000W",
+    "ref": "XFP-5000.1",
+    "price": "$1.200.000",
+    "desc": "Clase D"
+  },
+  {
+    "id": 20,
+    "cat": "AMPLIFICADORES",
+    "title": "Amplificador 3000W",
+    "ref": "XFP-3000.1",
+    "price": "$650.000",
+    "desc": "Monocanal"
+  },
+  {
+    "id": 21,
+    "cat": "AMPLIFICADORES",
+    "title": "Amplificador 4 Canales",
+    "ref": "XFP-480",
+    "price": "$600.000",
+    "desc": "Versátil"
+  },
+
+  {
+    "id": 22,
+    "cat": "CABLEADO",
+    "title": "Kit Instalación Audio",
+    "ref": "AWK-8GA",
+    "price": "$75.000",
+    "desc": "Cableado completo"
+  },
+  {
+    "id": 23,
+    "cat": "CABLEADO",
+    "title": "Fusiblera Doble",
+    "ref": "XF-FH2",
+    "price": "$45.000",
+    "desc": "80 Amperios"
+  },
+
+  {
+    "id": 24,
+    "cat": "SEGURIDAD",
+    "title": "Sensores de Reversa",
+    "ref": "XFK-E3",
+    "price": "$155.000",
+    "desc": "Cámara + sensores"
+  },
+  {
+    "id": 25,
+    "cat": "SEGURIDAD",
+    "title": "Módulo Elevavidrios",
+    "ref": "XF-M2.4",
+    "price": "$55.000",
+    "desc": "4 puertas"
+  }
+]

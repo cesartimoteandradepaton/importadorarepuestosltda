@@ -1,0 +1,534 @@
+[
+  {
+    "id": 1,
+    "cat": "RADIOS",
+    "title": "XFR-9408 PRO - 60WX4",
+    "ref": "REF-1",
+    "price": "$1.150.000",
+    "desc": "2 DIN Tipo tablet,Patalla 9”,Android 1 .0,GPS / WIFI / BLUETOOTH / 2 USB traseros,8GB RAM /128 GB Interna,Procesador de nucleos",
+    "img": "img/img_3_0.jpg"
+  },
+  {
+    "id": 2,
+    "cat": "RADIOS",
+    "title": "XFR-9 AND - 60WX4",
+    "ref": "REF-2",
+    "price": "$410.000",
+    "desc": "2 DIN Tipo tablet,Patalla 9” IPS Full HD,Android 1 .0,GPS / WIFI / BLUETOOTH / 2 USB traseros,4GB RAM / 64 GB Interna,Procesador de 4 nucleosCar Play / Android Auto ",
+    "img": "img/img_4_0.jpg"
+  },
+  {
+    "id": 3,
+    "cat": "RADIOS",
+    "title": "XFR-9402+ AND - 60WX4",
+    "ref": "REF-3",
+    "price": "$335.000",
+    "desc": "2 DIN Tipo tablet,Patalla 9”,Android 1 .0,GPS / WIFI / BLUETOOTH / 2 USB traseros,2GB RAM / 64 GB Interna,Procesador de 4 nucleos,Car Play / Android Auto ",
+    "img": "img/img_4_1.jpg"
+  },
+
+  {
+    "id": 4,
+    "cat": "RADIOS",
+    "title": "XFR-9401 AND - 60WX4",
+    "ref": "REF-4",
+    "price": "$430.000",
+    "desc": "1 DIN Tipo tablet,Patalla 9” IPS Full HD, Android 1 0,GPS / WIFI / BLUETOOTH / 2 USB traseros,4GB RAM / 64 GB Interna,Procesador de 4 nucleosCar Play / Android Auto ",
+    "img": "img/img_5_0.jpg"
+  },
+  {
+    "id": 5,
+    "cat": "RADIOS",
+    "title": "XFR-641+ AND - 60WX4",
+    "ref": "REF-5",
+    "price": "$300.000",
+    "desc": "1 DIN - Sin unidad de disco, pantalla 6.58 ips,andorid 15,usb/bluetooth,2gb ram /64gb internas,car play / android auto",
+    "img": "img/img_5_1.jpg"
+  },
+  {
+    "id": 7,
+    "cat": "OTROS",
+    "title": "Imán: Ferrita de alto grado (7.2 oz)",
+    "ref": "REF-7",
+    "price": "$155.000",
+    "desc": "Producto de catálogo",
+    "img": "img/img_6_0.jpg"
+  },
+  {
+    "id": 8,
+    "cat": "OTROS",
+    "title": "Componentes 4”",
+    "ref": "REF-8",
+    "price": "$135.000",
+    "desc": "Producto de catálogo",
+    "img": "img/img_6_0.jpg"
+  },
+  {
+    "id": 9,
+    "cat": "MEDIOS",
+    "title": "XFM-104  1500W",
+    "ref": "REF-9",
+    "price": "$620.000",
+    "desc": "Medios 10” ferrita Pro,Frecuencia: (HZ) 80-5000,sensibilidad: (1W/1M) 98db,impedancia nominal: 8Ὡ o 4Ὡ,RMS 500W",
+    "img": "img/img_7_0.jpg"
+  },
+  {
+    "id": 10,
+    "cat": "MEDIOS",
+    "title": "XFM-804 1000W",
+    "ref": "REF-10",
+    "price": "$450.000",
+    "desc": "Medios Octagonales ferrita Pro,Frecuencia: (HZ) 60-7000,sensibilidad: (1W/1M) 97db,impedancia nominal: 8Ὡ o 4Ὡ,RMS 500W",
+    "img": "img/img_7_1.jpg"
+  },
+  {
+    "id": 11,
+    "cat": "MEDIOS",
+    "title": "XFM-800ND 400w",
+    "ref": "REF-11",
+    "price": "$500.000",
+    "desc": "Medios 8” Neodimio,Frecuencia: (kHZ) 80-6500,sensibilidad: (1W/1M) 99db,impedancia nominal:  4Ὡ,RMS 200W",
+    "img": "img/img_8_1.jpg"
+  },
+  {
+    "id": 12,
+    "cat": "MEDIOS",
+    "title": "XFM-800ND 300w",
+    "ref": "REF-12",
+    "price": "$235.000",
+    "desc": "Medios 8” Ferrita,Frecuencia: (kHZ) 120-8000,sensibilidad: (1W/1M) 97db,impedancia nominal:  4Ὡ,RMS 175W",
+    "img": "img/img_8_1.jpg"
+  },
+  {
+    "id": 13,
+    "cat": "MEDIOS",
+    "title": "XFM-84 300w",
+    "ref": "REF-13",
+    "price": "$170.000",
+    "desc": "Medios 8” Ferrita,Frecuencia: (khz) 110-6500,sensibilidad: (1W/1M) 95db,impedancia nominal:  4Ὡ,RMS 150W",
+    "img": "img/img_8_0.jpg"
+  },
+  {
+    "id": 14,
+    "cat": "MEDIOS",
+    "title": "XFM-68ND 350w",
+    "ref": "REF-14",
+    "price": "$170.000",
+    "desc": "Medios 6.5” Neodimio-Edicion especial,Frecuencia: (khz) 150-8000,sensibilidad: (1W/1M) 95db,impedancia nominal:  4Ὡ,RMS 150W",
+    "img": "img/img_8_0.jpg"
+  },
+  {
+    "id": 19,
+    "cat": "TWEETERS",
+    "title": "XFD-240  300W",
+    "ref": "REF-19",
+    "price": "$240.000",
+    "desc": "Corneta “Driver” 1.75”- ferrita,Frecuencia: 1KHZ - 20KHZ,sensibilidad: (1W/1M) 107db,impedancia nominal: 8Ὡ,iman de ferrita sobre ceramica",
+    "img": "img/img_10_0.jpg"
+  },
+  {
+    "id": 20,
+    "cat": "TWEETERS",
+    "title": "XFT-24ND 450W",
+    "ref": "REF-20",
+    "price": "$320.000",
+    "desc": "tweeter Bala 4” - Neodimio,Frecuencia: 3-20 KHZ,sensibilidad: 115db(1w/h)inpudencia nominal: 4Ὡ,RMS 225W",
+    "img": "img/img_10_1.jpg"
+  },
+  {
+    "id": 21,
+    "cat": "TWEETERS",
+    "title": "XFT-24 450W",
+    "ref": "REF-21",
+    "price": "$145.000",
+    "desc": "tweeter Bala 4” - Ferrita,Frecuencia: 3-20 KHZ,sensibilidad: 107db(1w/h)inpudencia nominal: 4Ὡ,RMS 150W",
+    "img": "img/img_11_4.jpg"
+  },
+  {
+    "id": 22,
+    "cat": "TWEETERS",
+    "title": "XFT-2505 190W",
+    "ref": "REF-22",
+    "price": "$65.000",
+    "desc": "tweeter Bala 3” - Ferrita,Frecuencia: 2-20 KHZ,sensibilidad: 99db(1w/h)inpudencia nominal: 4Ὡ,RMS 40W",
+    "img": "img/img_11_5.jpg"
+  },
+  {
+    "id": 23,
+    "cat": "WOOFERS",
+    "title": "XFW-3  2600W",
+    "ref": "REF-23",
+    "price": "$670.000",
+    "desc": "Woofer 12” - docle bobina,diametro: 300mm,iman de estroncio de alta energia (100ozx2),impedencia nominal: dual 2 Ohms,Bobina de voz CCAW de 3”, RMS 1000W",
+    "img": "img/img_12_0.jpg"
+  },
+  {
+    "id": 24,
+    "cat": "WOOFERS",
+    "title": "XFW-2  1800W",
+    "ref": "REF-24",
+    "price": "$390.000",
+    "desc": "Woofer 12” - docle bobina,Frecuencia: 30 - 800 HZ,impedencia nominal: dual 2 O 4 Ohms,,RMS 500W",
+    "img": "img/img_13_1.jpg"
+  },
+  {
+    "id": 25,
+    "cat": "WOOFERS",
+    "title": "XFW-1 PRO  1400W",
+    "ref": "REF-25",
+    "price": "$260.000",
+    "desc": "Woofer 12” - docle bobina,Frecuencia: 30 - 80 HZ,Sensibilidad: (1w/1m) (dB) 90,impedencia nominal:  4 Ohms,RMS 400W",
+    "img": "img/img_13_2.jpg"
+  },
+  {
+    "id": 29,
+    "cat": "AMPLIFICADORES",
+    "title": "XFP-5000.1 5000W",
+    "ref": "REF-29",
+    "price": "$1.200.000",
+    "desc": "Amplificador de alta potencia,Canales 1 clase D ”Full Rango”,RMS (4 Ohms) 2200W Wx1,RMS (2 Ohms) 3300W Wx1,RMS (1 Ohms) 5000W Wx1",
+    "img": "img/img_15_0.jpg"
+  },
+  {
+    "id": 30,
+    "cat": "AMPLIFICADORES",
+    "title": "XFP-3.K+ 3000W",
+    "ref": "REF-30",
+    "price": "$650.000",
+    "desc": "Amplificador de alta potencia,Canales 1 clase D ”Full Rango”,RMS (4 Ohms) 1400W Wx1,RMS (2 Ohms) 2100W Wx1,RMS (1 Ohms) 3000W Wx1",
+    "img": "img/img_16_5.jpg"
+  },
+  {
+    "id": 31,
+    "cat": "AMPLIFICADORES",
+    "title": "XFP-3000.1 3000W",
+    "ref": "REF-31",
+    "price": "$600.000",
+    "desc": "Amplificador de alta potencia,Canales 1 clase D ”Full Rango”,RMS (4 Ohms) 1400W Wx1,RMS (2 Ohms) 2100W Wx1,RMS (1 Ohms) 3000W Wx1",
+    "img": "img/img_16_0.jpg"
+  },
+  {
+    "id": 36,
+    "cat": "OTROS",
+    "title": "Producto",
+    "ref": "REF-36",
+    "price": "$560.000",
+    "desc": "Producto de catálogo",
+    "img": "img/img_18_0.jpg"
+  },
+  {
+    "id": 37,
+    "cat": "OTROS",
+    "title": "CROSSOVER-DSP",
+    "ref": "REF-37",
+    "price": "$185.000",
+    "desc": "Producto de catálogo",
+    "img": "img/img_18_0.jpg"
+  },
+  {
+    "id": 38,
+    "cat": "CABLEADO",
+    "title": "AWK-4GA",
+    "ref": "REF-38",
+    "price": "$75.000",
+    "desc": "Kit de instalacion,Cable #4 - Cable remoto, 2RCA - 2 yes - 1 fusiblera",
+    "img": "img/img_19_0.jpg"
+  },
+  {
+    "id": 39,
+    "cat": "CABLEADO",
+    "title": "AWK-8GA",
+    "ref": "REF-39",
+    "price": "$55.000",
+    "desc": "Kit de instalacion,Cable #8 - Cable remoto, 2RCA - 2 yes - 1 fusiblera",
+    "img": "img/img_19_0.jpg"
+  },
+  {
+    "id": 40,
+    "cat": "CABLEADO",
+    "title": "4GA",
+    "ref": "REF-40",
+    "price": "$145.000",
+    "desc": "Calibre 4, 30 metros, ALto rendimiento",
+    "img": "img/img_20_1.jpg"
+  },
+  {
+    "id": 41,
+    "cat": "CABLEADO",
+    "title": "8GA",
+    "ref": "REF-41",
+    "price": "$160.000",
+    "desc": "Calibre 8 , 50 metros, ALto rendimiento",
+    "img": "img/img_20_1.jpg"
+  },
+  {
+    "id": 42,
+    "cat": "CABLEADO",
+    "title": "14GA",
+    "ref": "REF-42",
+    "price": "$190.000",
+    "desc": "Calibre 14, 50 metros, ALto rendimiento",
+    "img": "img/img_20_3.jpg"
+  },
+  {
+    "id": 62,
+    "cat": "seguridad",
+    "title": "Producto",
+    "ref": "REF-62",
+    "price": "$120.000",
+    "desc": "Producto de catálogo",
+    "img": "img/img_23_0.jpg"
+  },
+  {
+    "id": 63,
+    "cat": "seguridad",
+    "title": "Módulos elevavidrios",
+    "ref": "REF-63",
+    "price": "$55.000",
+    "desc": "Producto de catálogo",
+    "img": "img/img_24_0.jpg"
+  },
+  {
+    "id": 64,
+    "cat": "seguridad",
+    "title": "4 puertas",
+    "ref": "REF-64",
+    "price": "$45.000",
+    "desc": "Producto de catálogo",
+    "img": "img/img_24_0.jpg"
+  },
+  {
+    "id": 65,
+    "cat": "seguridad",
+    "title": "XF-M2.4",
+    "ref": "REF-65",
+    "price": "$450.000",
+    "desc": "Producto de catálogo",
+    "img": "img/img_24_0.jpg"
+  },
+  {
+    "id": 66,
+    "cat": "seguridad",
+    "title": "$55.000",
+    "ref": "REF-66",
+    "price": "$700.000",
+    "desc": "Producto de catálogo",
+    "img": "img/img_24_0.jpg"
+  },
+  {
+    "id": 67,
+    "cat": "seguridad",
+    "title": "Refrigeración por disipador",
+    "ref": "REF-67",
+    "price": "$50.000",
+    "desc": "Producto de catálogo",
+    "img": "img/img_25_0.jpg"
+  },
+  {
+    "id": 68,
+    "cat": "seguridad",
+    "title": "$50.000",
+    "ref": "REF-68",
+    "price": "$155.000",
+    "desc": "Producto de catálogo",
+    "img": "img/img_25_0.jpg"
+  },
+  {
+    "id": 69,
+    "cat": "seguridad",
+    "title": "Convertidor de voltaje",
+    "ref": "REF-69",
+    "price": "$35.000",
+    "desc": "Producto de catálogo",
+    "img": "img/img_26_0.jpg"
+  },
+  {
+    "id": 70,
+    "cat": "seguridad",
+    "title": "24v a 12v",
+    "ref": "REF-70",
+    "price": "$45.000",
+    "desc": "Producto de catálogo",
+    "img": "img/img_26_0.jpg"
+  },
+  {
+    "id": 71,
+    "cat": "seguridad",
+    "title": "30 Amperios",
+    "ref": "REF-71",
+    "price": "$60.000",
+    "desc": "Producto de catálogo",
+    "img": "img/img_26_0.jpg"
+  },
+  {
+    "id": 72,
+    "cat": "seguridad",
+    "title": "XF-30A",
+    "ref": "REF-72",
+    "price": "$38.000",
+    "desc": "Producto de catálogo",
+    "img": "img/img_26_0.jpg"
+  },
+  {
+    "id": 73,
+    "cat": "seguridad",
+    "title": "Sensores de reversa",
+    "ref": "REF-73",
+    "price": "$60.000",
+    "desc": "Producto de catálogo",
+    "img": "img/img_26_0.jpg"
+  },
+  {
+    "id": 74,
+    "cat": "seguridad",
+    "title": "Ref.1: Sencillo display LED RGB",
+    "ref": "REF-74",
+    "price": "$70.000",
+    "desc": "Producto de catálogo",
+    "img": "img/img_26_0.jpg"
+  },
+  {
+    "id": 75,
+    "cat": "OTROS",
+    "title": "Producto",
+    "ref": "REF-75",
+    "price": "$590.000",
+    "desc": "Producto de catálogo",
+    "img": "img/img_27_0.jpg"
+  },
+  {
+    "id": 76,
+    "cat": "OTROS",
+    "title": "Producto",
+    "ref": "REF-76",
+    "price": "$410.000",
+    "desc": "Producto de catálogo",
+    "img": "img/img_27_0.jpg"
+  },
+  {
+    "id": 77,
+    "cat": "RADIOS",
+    "title": "PW-10 AND 52WX4",
+    "ref": "REF-77",
+    "price": "$590.000",
+    "desc": "2 DIN Tipo tablet,Patalla 10” IPS Full HD,Android 14 .0,GPS / WIFI / BLUETOOTH / 2 USB traseros,4GB RAM / 64 GB Interna,Procesador de 4 nucleos,Car Play / Android Auto,ecualizador DSP ",
+    "img": "img/img_27_1.jpg"
+  },
+  {
+    "id": 78,
+    "cat": "RADIOS",
+    "title": "PW-9435+AND  52WX4",
+    "ref": "REF-78",
+    "price": "$410.000",
+    "desc": "2 DIN Tipo tablet -SIN SALIDA DE VIDEO,Patalla 9” IPS Full HD,Android 14 .0,GPS / WIFI / BLUETOOTH / 2 USB traseros,4GB RAM / 64 GB Interna,Procesador de 4 nucleos,Car Play / Android Auto,ecualizador DSP ",
+    "img": "img/img_27_2.jpg"
+  },
+  {
+    "id": 79,
+    "cat": "RADIOS",
+    "title": "PW-9435R  60WX4",
+    "ref": "REF-79",
+    "price": "$295.000",
+    "desc": "2 DIN Tipo tablet -SIN SALIDA DE VIDEO,Patalla 9” IPS Full HD,Android 15 .0,GPS / WIFI / BLUETOOTH / 2 USB traseros,2GB RAM / 64 GB Interna,Procesador de 4 nucleos,Car Play / Android Auto,ecualizador DSP ",
+    "img": "img/img_28_3.jpg"
+  },
+  {
+    "id": 80,
+    "cat": "RADIOS",
+    "title": "PW-7035  60WX4",
+    "ref": "REF-80",
+    "price": "$500.000",
+    "desc": "Radio (2) DIN con chasis corto,Frontal fijo con panel luminoso VA,Puertos frontales USB / SD / AUX,Conectividad Bluetooth,Salidas por RCA,Control remoto",
+    "img": "img/img_28_2.jpg"
+  },
+  {
+    "id": 84,
+    "cat": "OTROS",
+    "title": "Producto",
+    "ref": "REF-84",
+    "price": "$110.000",
+    "desc": "Producto de catálogo",
+    "img": "img/img_31_0.jpg"
+  },
+  {
+    "id": 85,
+    "cat": "OTROS",
+    "title": "Imán de ferrita de alto grado",
+    "ref": "REF-85",
+    "price": "$75.000",
+    "desc": "Producto de catálogo",
+    "img": "img/img_31_0.jpg"
+  },
+  {
+    "id": 86,
+    "cat": "OTROS",
+    "title": "Producto",
+    "ref": "REF-86",
+    "price": "$60.000",
+    "desc": "Producto de catálogo",
+    "img": "img/img_31_0.jpg"
+  },
+  {
+    "id": 87,
+    "cat": "OTROS",
+    "title": "Producto",
+    "ref": "REF-87",
+    "price": "$55.000",
+    "desc": "Producto de catálogo",
+    "img": "img/img_31_0.jpg"
+  },
+  {
+    "id": 88,
+    "cat": "OTROS",
+    "title": "Producto",
+    "ref": "REF-88",
+    "price": "$45.000",
+    "desc": "Producto de catálogo",
+    "img": "img/img_32_0.jpg"
+  },
+  {
+    "id": 89,
+    "cat": "OTROS",
+    "title": "Producto",
+    "ref": "REF-89",
+    "price": "$40.000",
+    "desc": "Producto de catálogo",
+    "img": "img/img_32_0.jpg"
+  },
+  {
+    "id": 90,
+    "cat": "OTROS",
+    "title": "Producto",
+    "ref": "REF-90",
+    "price": "$55.000",
+    "desc": "Producto de catálogo",
+    "img": "img/img_32_0.jpg"
+  },
+  {
+    "id": 91,
+    "cat": "OTROS",
+    "title": "Producto",
+    "ref": "REF-91",
+    "price": "$130.000",
+    "desc": "Producto de catálogo",
+    "img": "img/img_32_0.jpg"
+  },
+  {
+    "id": 105,
+    "cat": "seguridad",
+    "title": "Producto",
+    "ref": "REF-105",
+    "price": "$50.000",
+    "desc": "Producto de catálogo",
+    "img": "img/img_38_0.jpg"
+  },
+  {
+    "id": 106,
+    "cat": "seguridad",
+    "title": "Producto",
+    "ref": "REF-106",
+    "price": "$38.000",
+    "desc": "Producto de catálogo",
+    "img": "img/img_38_0.jpg"
+  }
+]
