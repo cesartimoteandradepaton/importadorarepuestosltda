@@ -40,7 +40,7 @@ body {
 .top-bar {
     background: var(--corporate-blue);
     color: white;
-    padding: 8px 5%;
+    padding: 11px 5%;
     font-size: 0.7rem;
     display: flex;
     justify-content: space-between;
@@ -353,6 +353,7 @@ nav {
     color: var(--corporate-blue);
     font-size: 0.95rem;
     margin-bottom: 4px;
+    text-align: center;
 }
 
 .carousel-item .item-body .ref {
@@ -793,7 +794,7 @@ nav {
 }
 
 .facilities{
-    width: 380px;
+    width: 595px;
     height: 349px;
     object-fit: cover;
     border-radius: 10px;
