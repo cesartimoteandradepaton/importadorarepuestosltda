@@ -1,4 +1,74 @@
 // ============================================================
+// MENÚ HAMBURGUESA - RESPONSIVE
+// ============================================================
+document.addEventListener('DOMContentLoaded', function() {
+    // Crear botón hamburguesa si no existe
+    const nav = document.querySelector('nav');
+    const navLinks = document.querySelector('.nav-links');
+    const logo = document.querySelector('.logo');
+    
+    // Verificar si el botón ya existe
+    let menuToggle = document.querySelector('.menu-toggle');
+    if (!menuToggle) {
+        menuToggle = document.createElement('button');
+        menuToggle.className = 'menu-toggle';
+        menuToggle.setAttribute('aria-label', 'Abrir menú de navegación');
+        menuToggle.innerHTML = '<i class="fas fa-bars"></i>';
+        
+        // Insertar después del logo
+        if (logo && logo.parentNode === nav) {
+            nav.insertBefore(menuToggle, navLinks);
+        } else {
+            nav.appendChild(menuToggle);
+        }
+    }
+    
+    // Función para alternar menú
+    function toggleMenu() {
+        navLinks.classList.toggle('open');
+        const isOpen = navLinks.classList.contains('open');
+        menuToggle.innerHTML = isOpen ? '<i class="fas fa-times"></i>' : '<i class="fas fa-bars"></i>';
+        menuToggle.setAttribute('aria-label', isOpen ? 'Cerrar menú de navegación' : 'Abrir menú de navegación');
+    }
+    
+    // Evento click en botón hamburguesa
+    menuToggle.addEventListener('click', function(e) {
+        e.stopPropagation();
+        toggleMenu();
+    });
+    
+    // Cerrar menú al hacer clic en un enlace
+    document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', function() {
+            if (navLinks.classList.contains('open')) {
+                toggleMenu();
+            }
+        });
+    });
+    
+    // Cerrar menú al hacer clic fuera
+    document.addEventListener('click', function(e) {
+        if (navLinks.classList.contains('open')) {
+            const isClickInside = nav.contains(e.target);
+            if (!isClickInside) {
+                toggleMenu();
+            }
+        }
+    });
+    
+    // Cerrar menú al hacer scroll en móvil
+    let scrollTimeout;
+    window.addEventListener('scroll', function() {
+        if (window.innerWidth <= 768 && navLinks.classList.contains('open')) {
+            clearTimeout(scrollTimeout);
+            scrollTimeout = setTimeout(() => {
+                toggleMenu();
+            }, 300);
+        }
+    });
+});
+
+// ============================================================
 // CONFIGURACIÓN - CONTROL DE RESEÑAS
 // ============================================================
 // ⭐ CAMBIA ESTOS VALORES PARA CONTROLAR LAS RESEÑAS
