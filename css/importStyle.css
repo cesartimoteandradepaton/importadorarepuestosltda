@@ -367,46 +367,128 @@ nav {
 }
 
 /* ============================================================
-   MARCAS
+   MARCAS - CARRUSEL (20 marcas)
    ============================================================ */
-.brands-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-    gap: 30px;
-    max-width: 1000px;
+.brands-carousel-wrapper {
+    overflow: hidden;
+    max-width: 1200px;
     margin: 0 auto;
-    align-items: center;
+    padding: 20px 0;
+    position: relative;
 }
 
-.brand-item {
+.brands-carousel-track {
+    display: flex;
+    animation: scroll-brands 45s linear infinite;
+    width: calc(220px * 40); /* 20 marcas * 2 (duplicado) = 40 elementos */
+}
+
+.brand-carousel-item {
+    width: 200px;
+    min-width: 200px;
+    margin: 0 10px;
     background: white;
-    padding: 25px 20px;
     border-radius: var(--radius);
-    text-align: center;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     box-shadow: var(--shadow);
     transition: var(--transition);
-    filter: grayscale(100%);
-    opacity: 0.7;
+    border: 1px solid #eee;
 }
 
-.brand-item:hover {
+.brand-carousel-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 40px rgba(0,0,0,0.12);
+    border-color: var(--electric-blue);
+}
+
+.brand-carousel-item img {
+    width: 100%;
+    height: 70px;
+    object-fit: contain;
+    /* filter: grayscale(100%);
+    opacity: 0.7; */
+    transition: var(--transition);
+}
+
+.brand-carousel-item:hover img {
     filter: grayscale(0%);
     opacity: 1;
-    transform: translateY(-5px);
-    box-shadow: 0 8px 30px rgba(0,0,0,0.1);
 }
 
-.brand-item i {
-    font-size: 3rem;
-    color: var(--corporate-blue);
-    display: block;
-    margin-bottom: 10px;
-}
-
-.brand-item span {
+.brand-carousel-item span {
+    margin-top: 12px;
+    font-size: 0.8rem;
     font-weight: 700;
-    font-size: 0.9rem;
     color: var(--corporate-blue);
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+@keyframes scroll-brands {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-220px * 20)); /* Mover exactamente el ancho de un grupo (20 marcas) */
+    }
+}
+
+/* ============================================================
+   MARCAS - RESPONSIVE
+   ============================================================ */
+@media (max-width: 768px) {
+    .brand-carousel-item {
+        width: 150px;
+        min-width: 150px;
+        padding: 15px 10px;
+    }
+    
+    .brand-carousel-item img {
+        height: 50px;
+    }
+    
+    .brand-carousel-item span {
+        font-size: 0.7rem;
+    }
+    
+    .brands-carousel-track {
+        width: calc(170px * 40);
+    }
+    
+    @keyframes scroll-brands {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(calc(-170px * 20)); }
+    }
+}
+
+@media (max-width: 480px) {
+    .brand-carousel-item {
+        width: 120px;
+        min-width: 120px;
+        padding: 12px 8px;
+    }
+    
+    .brand-carousel-item img {
+        height: 40px;
+    }
+    
+    .brand-carousel-item span {
+        font-size: 0.6rem;
+        margin-top: 8px;
+    }
+    
+    .brands-carousel-track {
+        width: calc(140px * 40);
+    }
+    
+    @keyframes scroll-brands {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(calc(-140px * 20)); }
+    }
 }
 
 /* ============================================================
@@ -710,6 +792,13 @@ nav {
     margin-right: 15px;
 }
 
+.facilities{
+    width: 380px;
+    height: 349px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
 .about-text h3 {
     color: var(--corporate-blue);
     font-size: 1.8rem;
@@ -741,47 +830,6 @@ nav {
 .about-text .stats .stat .label {
     font-size: 0.8rem;
     color: var(--text-main);
-}
-
-/* ============================================================
-   UBICACIONES
-   ============================================================ */
-.locations-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 30px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.location-card {
-    background: white;
-    padding: 30px;
-    border-radius: var(--radius);
-    box-shadow: var(--shadow);
-    transition: var(--transition);
-    border-left: 4px solid var(--electric-blue);
-}
-
-.location-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 40px rgba(0,0,0,0.1);
-}
-
-.location-card h4 {
-    color: var(--corporate-blue);
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-}
-
-.location-card p {
-    line-height: 1.7;
-    font-size: 0.95rem;
-}
-
-.location-card i {
-    color: var(--electric-blue);
-    width: 24px;
 }
 
 /* ============================================================
