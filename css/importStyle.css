@@ -915,8 +915,8 @@ nav {
     position: fixed;
     bottom: 30px;
     right: 30px;
-    width: 75px;
-    height: 75px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -937,13 +937,13 @@ nav {
 
 .ws-float.call-float {
     background: var(--white);
-    bottom: 116px;
+    bottom: 126px;
 }
 
 .ws-float.call-float .tooltip {
     position: absolute;
     right: calc(100% + 14px);
-    top: 55%;
+    top: 60%;
     transform: translateY(-50%);
     background: var(--white);
     color: var(--corporate-blue);
@@ -961,7 +961,7 @@ nav {
 .ws-float.call-float .tooltip::after {
     content: '';
     position: absolute;
-    top: 55%;
+    top: 60%;
     right: -6px;
     transform: translateY(-50%);
     border-top: 6px solid transparent;
@@ -1414,14 +1414,14 @@ footer {
     
     /* ---- WhatsApp Flotante ---- */
     .ws-float {
-        width: 65px;
-        height: 65px;
+        width: 70px;
+        height: 70px;
         bottom: 20px;
         right: 20px;
     }
     
     .ws-float.call-float {
-        bottom: 92px;
+        bottom: 97px;
     }
     
     .ws-float.call-float .tooltip {
@@ -1736,18 +1736,18 @@ footer {
     
     /* ---- WhatsApp Flotante ---- */
     .ws-float {
-        width: 58px;
-        height: 58px;
+        width: 64px;
+        height: 64px;
         bottom: 15px;
         right: 15px;
     }
     
     .ws-float.call-float {
-        bottom: 75px;
+        bottom: 88px;
     }
     
     .ws-float img {
-        width: 50%;
+        width: 53%;
     }
 }
 
