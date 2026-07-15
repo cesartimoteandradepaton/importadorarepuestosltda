@@ -937,13 +937,13 @@ nav {
 
 .ws-float.call-float {
     background: var(--white);
-    bottom: 110px;
+    bottom: 116px;
 }
 
 .ws-float.call-float .tooltip {
     position: absolute;
     right: calc(100% + 14px);
-    top: 50%;
+    top: 55%;
     transform: translateY(-50%);
     background: var(--white);
     color: var(--corporate-blue);
@@ -961,7 +961,7 @@ nav {
 .ws-float.call-float .tooltip::after {
     content: '';
     position: absolute;
-    top: 50%;
+    top: 55%;
     right: -6px;
     transform: translateY(-50%);
     border-top: 6px solid transparent;
@@ -1421,7 +1421,7 @@ footer {
     }
     
     .ws-float.call-float {
-        bottom: 85px;
+        bottom: 92px;
     }
     
     .ws-float.call-float .tooltip {
@@ -1743,7 +1743,7 @@ footer {
     }
     
     .ws-float.call-float {
-        bottom: 72px;
+        bottom: 75px;
     }
     
     .ws-float img {
